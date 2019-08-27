@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Wild Card Casino Home page.">
+  <meta name="author" content="Wild Card Casino">
+
+  <title>Home | Wild Card Casino</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+  <!-- Bootstrap core CSS -->
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+
+  <link href="css/wildcard.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/Footer-with-button-logo.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+
+  <header>
+    <div class="jumbotron">
+      <div class="container" id="jumbotron-w">
+        <div class="row">
+          <div class="col-lg-8" id="elk-logo">
+            <a href="index.html"><img class="img-fluid" src="img/cutlogo2.png" title="The Elk-Institute Logo"
+                alt="The Elk-Institute Logo">
+            </a>
+          </div>
+          <div class="col-lg-4">
+            <section class="donate">
+              <a href="#" aria-label="Link to create a Elk Institute store account" target="_blank" rel="noopener">
+                <button type="button" class="btn-lg btn-primary" id="header-button">
+                  BECOME A MEMBER
+                </button>
+              </a>
+              <a href="#" aria-label="Wild Card Casino donate page" target="_blank" rel="noopener">
+                <button type="button" class="btn-lg btn-danger" id="header-button">
+                  (303) 582-3412
+                </button>
+              </a>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <style>
+    .dropdown:hover>.dropdown-menu {
+      display: block;
+    }
+
+    /* .nav-item {
+      font-size: .5rem;
+      font: bold;
+    } */
+
+    .nav-item:hover {
+      background-color: #66b267;
+    }
+
+    #navbarDropdown:hover {
+      color: #fff;
+    }
+
+    .card:hover .image {
+      opacity: 0.3;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+      padding: .5rem 1rem;
+      font-size: 1rem;
+      line-height: 1.5;
+      border-radius: 0rem;
+    }
+
+    p {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .carousel-slide {
+      position: top;
+      top: 0;
+      left: 0;
+    }
+
+    b {
+      color: #fff;
+      font-size: .8rem;
+    }
+
+    hr {
+      background-color: darkgray;
+    }
+
+    .btn-primary {
+      color: #fff;
+      background-color: #66b267;
+      border-color: #66b267;
+    }
+
+    .lead {
+      color: white;
+      font: bold;
+    }
+
+    .display-4 {
+      color: white;
+      padding-top: 225px;
+    }
+
+    #ul-font {
+      color: #fff;
+    }
+
+    #map-background {
+      background-color: rgba(0, 0, 0, .5);
+    }
+  </style>
+
+
+
+
+  <main>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light"
+      style="background-color: #271c38; border-top: 2px solid black; border-bottom: 2px solid black">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">
+              <b>HOME</b>
+            </a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">
+              <b>FOOD & DRINK</b>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" rel="noopener"><b>CASINO
+                GAMES</b>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button">
+              <b>PLAYER CARDS</b>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+              id="navbarDropdown" target="_blank" role="button" rel="noopener">
+              <b>DRAWINGS & PROMOTIONS</b>
+            </a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="https://membermarkets.com/landofthefreefoundation/customer/account/login/"
+              id="navbarDropdown" target="_blank" role="button" rel="noopener">
+              <b>PLAYERS CLUB</b>
+            </a>
+
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
+              aria-expanded="false">
+              <b>CONTACT</b>
+            </a>
+            <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="news.html">News</a>
+              <a class="dropdown-item" href="events.html">Events</a>
+              <a class="dropdown-item" href="media.html">Media</a>
+            </div> -->
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Visit Our Casino in Black Hawk, CO</h1>
+        <p class="lead">ENTER DAILY DRAWINGS FOR A CHANCE TO WIN BIG</p>
+        <button type="button" class="btn btn-success">CONTACT US</button>
+      </div>
+    </div>
+
+
+    <section id="wild-card-intro">
+
+
+
+      <div class="container">
+        <br>
+        <h1 style="text-align: center; color: white">YOU CAN BET ON HAVING A GREAT TIME AT THE WILD CARD SALOON
+          Visit The First Casino In Black Hawk, CO</h1>
+        <br>
+        <div class="row">
+          <div class="col-lg-12">
+            <p style="color: white">
+
+              The Wild Card Saloon is owned and operated by family, and our team is very proud to serve the Black Hawk
+              region. Visit us for a meal, meet a friend for drinks, or try your luck on our modern slot machines. At
+              The
+              Wild Card Saloon, you can bet on having a wonderful experience.
+
+              Call 303-582-3412 to speak with an associate or visit our Black Hawk location today.
+            </p>
+
+          </div>
+
+          <hr>
+
+        </div>
+
+      </div>
+
+      <div>
+        <br>
+      </div>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="servicepersonnelandfamily">
+              <div class="card-image">
+                <div class="view overlay hm-white-slight z-depth-1">
+                  <div id="home-card-1" alt="US Army Soldier holding child in arms">
+                  </div>
+                  <div class="mask waves-effect"></div>
+                </div>
+              </div>
+              <div class="card-content">
+                <a href="#" alt="Link to Service Personnel and Family Page">
+                  <br>
+                  <h2>FOOD & DRINK </h2>
+                  <br>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <div class="secondcardrow">
+              <div class="card-image">
+                <div class="view overlay hm-white-slight z-depth-1">
+                  <div id="home-card-2" alt="US Military Veteran in wheelchair with third training for race.">
+                  </div>
+                  <div class="mask waves-effect"></div>
+                </div>
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <br>
+                  <h2>CASINO</h2>
+                  <br>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="leadershipknowledge">
+              <div class="card-image">
+                <div class="view overlay hm-white-slight z-depth-1">
+                  <div id="home-card-3" alt="US Army Officers parading on horses in honor of Veterans day."></div>
+                </div>
+              </div>
+              <div class="card-content">
+                <a href="#">
+                  <br>
+                  <h2>PLAYERS CARDS</h2>
+                  <br>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div>
+        <br>
+      </div>
+
+    </section>
+
+    <section id="sign-up-player-card">
+      <div class="containter" id="sign-up-player-card-mem-text">
+
+
+        <h1 style="color: #fff">Sign Up for a Player Card Membership</h1>
+        <h3 style="color: #fff">Membership is free and fun for all</h3>
+
+        <button type="button" class="btn btn-success">CONTACT US</button>
+      </div>
+    </section>
+
+    <section id="wild-card-intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <br>
+            <h2 style="color: #66b267">COME CELEBRATE WITH US!</h2>
+            <p>
+              Bring your friends to The Wild Card Saloon for a wild day (or night!) of fun. Our casino is the perfect
+              place to host your:
+            </p>
+            <br>
+            <br>
+            <ul id="ul-font">
+              <li>Celebration – get a group of friends together for a fun night out</li>
+              <li>Bachelor party – enjoy a fun guy’s night with drinks and drawings</li>
+              <li>Birthday bash – celebrate another year of life with loved ones</li>
+              <li>Bachelorette party – bet on having fun with our slot machines</li>
+
+            </ul>
+            <br>
+            <p>
+              We look forward to celebrating with you at The Wild Card Saloon in Black Hawk, CO. Stop in today!
+            </p>
+
+          </div>
+          <div class="col-lg-6">
+            <br>
+            <h2 style="color: #66b267">VISIT OUR CASINO IN BLACK HAWK</h2>
+            <p>
+              Choose The Wild Card Saloon for your next outing with friends, or that special date night. Our saloon is
+              so much more than a slot machine casino. For all your entertainment needs, we feature:
+            </p>
+            <p>
+              <ul id="ul-font">
+                <li>A full bar</li>
+                <li>An outdoor deck</li>
+                <li>A convenience store</li>
+              </ul>
+            </p>
+            <p>
+              Stop in to play our wide variety of slot machines, players cards, sit down for a meal and relax outdoors,
+              all at the same beautiful location. You’ll love discovering all the fun you can have at The Wild Card
+              Saloon in Black Hawk, CO.
+            </p>
+
+          </div>
+
+        </div>
+        <br>
+      </div>
+
+      <div class="container" id="map-background">
+        <div class="row">
+          <div class="col-lg-6">
+            <br>
+            <iframe class="b2b-location-canvas" frameborder="0" style="border:0" allowfullscreen=""
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA5g-EDOncup0QNHjONj-9QWP1gorawdFw&amp;q=120+Main+Street%2CBlack+Hawk%2CCO%2C80422%2C">
+            </iframe>
+            <div class="b2b-location-items-container">
+              <div class="b2b-location-items show-details">
+                <ul style="display: block; top: 0px;">
+                  <li data-iframe-src-query="&amp;q=120+Main+Street%2CBlack+Hawk%2CCO%2C80422%2C"
+                    data-address="120 Main Street, , Black Hawk, CO, 80422" data-index="1" class="show-details"
+                    style="display: block;">
+                    <div class="b2b-location-basic-info">
+                      <div class="b2b-location-hover-box"></div>
+                      <h2>The Wild Card Saloon</h2>
+                      <p>
+                        120 Main Street<br>Black Hawk, CO 80422
+                      </p>
+                      <a class="b2b-location-get-directions color_bodylinks"
+                        href="https://maps.google.com/maps?daddr=120 Main Street, Black Hawk, CO 80422&amp;hl=en"
+                        target="_blank">GET DIRECTIONS</a>
+                      <a class="b2b-location-expand-icon" href="javascript:void(0);" title="See Details"></a>
+                    </div>
+                    <p class="b2b-location-detail-info" style="display: block;">
+                      <br><span class="b2b-location-h2">Call Us</span><br><b>Phone:</b> (303) 582-3412<br>
+                      <br><span class="b2b-location-h2">Hours</span><br>
+                      <b>Mon: </b>8:00AM-2:00AM<br><b>Tue: </b>8:00AM-2:00AM<br><b>Wed:
+                      </b>8:00AM-2:00AM<br><b>Thu: </b>8:00AM-4:00AM<br><b>Fri: </b>8:00AM-4:00AM<br><b>Sat:
+                      </b>8:00AM-4:00AM<br><b>Sun: </b>8:00AM-4:00AM<br> </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+
+            <div class="list_block type_article a1 column_amt_1 landscape_4_3 small not_well ">
+
+              <div class="item_1 the_list_item center not_hero no_image no_heads yes_desc" lang="en">
+                <div class="the_list_wrap">
+                  <div class="the_list_item_heads"></div>
+                  <div class="the_list_item_desc txt_color">
+                    <p></p>
+                    <div class="fb-page fb_iframe_widget"
+                      data-href="https://www.facebook.com/Wild-Card-Saloon-and-Casino-1437483743145071/"
+                      data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
+                      data-hide-cover="false" data-show-facepile="true" fb-xfbml-state="rendered"
+                      fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=613756168637405&amp;container_width=316&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FWild-Card-Saloon-and-Casino-1437483743145071%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline">
+                      <span style="vertical-align: bottom; width: 316px; height: 500px;">
+                        <iframe name="f5613c15737024" width="1000px" height="1000px"
+                          title="fb:page Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                          allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                          src="https://www.facebook.com/v2.10/plugins/page.php?adapt_container_width=true&amp;app_id=613756168637405&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df32121f820f17fc%26domain%3Dwildcardcasino.net%26origin%3Dhttp%253A%252F%252Fwildcardcasino.net%252Ff1265bb0b603bc%26relation%3Dparent.parent&amp;container_width=316&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2FWild-Card-Saloon-and-Casino-1437483743145071%2F&amp;locale=en_US&amp;sdk=joey&amp;show_facepile=true&amp;small_header=false&amp;tabs=timeline"
+                          style="border: none; visibility: visible; width: 316px; height: 500px;" class="">
+                        </iframe>
+                      </span>
+                    </div>
+                    <p></p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid" id="donatefoot">
+      <div class="row">
+        <a class="btn btn-lg btn-success btn-block" href="#">
+          CONTACT US
+        </a>
+      </div>
+    </div>
+    <footer id="myFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-2" id="footlinks">
+            <h5>HOME</h5>
+            <!-- <ul>
+              <li><a href="about-the-elk-institute.html">About Wild Card Casino</a></li>
+              <li><a href="about-dr-carrie-elk.html">About Dr. Carrie Elk</a></li>
+              <li><a href="elk-board-of-directors.html">Board Of Directors</a></li>
+            </ul> -->
+          </div>
+          <div class="col-sm-2" id="footlinks">
+            <h5>FOOD & DRINK</h5>
+            <h5></h5>
+          </div>
+          <div class="col-sm-2" id="footlinks">
+            <h5>CASINO GAMES</h5>
+            <!-- <ul>
+              <li>
+                <a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" target="_blank"
+                  rel="noopener">Member Online Store
+                </a>
+              </li>
+              <li>
+                <a href="membermarkets.html">Member Markets Info</a>
+              </li>
+            </ul> -->
+          </div>
+          <div class="col-sm-2" id="footlinks">
+            <h5>PLAYER CARDS</h5>
+            <h5>DRAWINGS & PROMOTIONS</h5>
+            <!-- <ul>
+              <li><a href="#">Donate Now</a></li>
+              <li><a href="https://membermarkets.com/landofthefreefoundation/customer/account/login/" target="_blank"
+                  rel="noopener">Shop to Support
+                </a>
+              </li>
+              <li><a href="#">Golf Classic</a></li>
+              <li><a href="#">Gift Registry</a></li>
+              <li><a href="#">Foundation Dinner</a></li>
+            </ul> -->
+          </div>
+          <div class="col-sm-2" id="footlinks">
+            <h5>PLAYERS CLUB</h5>
+            <!-- <ul>
+              <li><a href="the-elk-institute-news.html">News</a></li>
+              <li><a href="the-elk-institute-video-gallery.html">Video Gallery</a></li>
+              <li><a href="the-elk-institute-photo-gallery.html">Photo Gallery</a></li>
+              <li><a href="the-elk-institute-press-kit.html">Press Kit</a></li>
+            </ul> -->
+          </div>
+          <div class="col-lg-2" id="footlinks">
+            <h5>CONTACT US</h5>
+            <p id="footlinks">
+              (303) 582-3412
+              <br>
+              Email:
+              <br>
+              <a href="mailto:wildcard@gmail.com">wildcard@gmail.com</a>
+              Address:
+              <br>
+              120 Main Street
+              Black Hawk, CO 80422
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="container" id="contactfooter">
+            <div class="row">
+              <div class="col-lg-12" id="footlinks">
+                <h5>Connect With Us</h5>
+                <div class="social-networks">
+                  <a href="#" aria-label="Wild Card Casino Twitter" class="twitter">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                  <a href="https://www.facebook.com/Wild-Card-Saloon-and-Casino-1437483743145071/" aria-label="Wild Card Casino Facebook"
+                    class="facebook" rel="noopener">
+                    <i class="fa fa-facebook"></i></a>
+                  <a href="#" aria-label="Wild Card Casino google" class="google">
+                    <i class="fa fa-google-plus"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <br>
+          <p class="m-0 text-center text-white" id="footlinks">Copyright 2019 &copy; Wild Card Casino for
+            <br>
+            <a href="#">Privacy</a>
+            <a href="#">Disclaimer/Registrations/Copyright Statement</a>
+            <br>
+          </p>
+        </div>
+        <br>
+        <!-- <p>© 2016 Copyright Text </p> -->
+      </div>
+    </footer>
+  </footer>
+  <!-- </footer> -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
