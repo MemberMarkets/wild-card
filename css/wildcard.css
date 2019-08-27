@@ -469,7 +469,7 @@ hr {
 }
 
 #home-card-1 {
-    background: url("http://wildcardcasino.net/wp-content/blogs.dir/27157/files/2017/10/wild-card-saloon-2-2h1.jpeg?w=1060&h=795&a=t") no-repeat center center;
+    background: url("../img/wild-card-saloon-2-2h1.jpeg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -480,7 +480,7 @@ hr {
 }
 
 #home-card-2 {
-  background: url("http://wildcardcasino.net/files/2014/04/20799347_2172985316261573_4395825640200621899_n.jpg?w=316&h=316&a=t") no-repeat center center;
+  background: url("../img/20799347_2172985316261573_4395825640200621899_n.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -491,7 +491,7 @@ hr {
 /* https://cdn.pixabay.com/photo/2018/05/28/16/29/sport-3436358_1280.jpg */
 
 #home-card-3 {
-  background: url("http://wildcardcasino.net/wp-content/blogs.dir/27157/files/2017/10/wild-card-saloon-3e2.jpeg") no-repeat center center;
+  background: url("../img/wild-card-saloon-3e2.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
